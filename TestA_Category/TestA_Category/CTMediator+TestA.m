@@ -11,7 +11,6 @@
 @implementation CTMediator (TestA)
 - (void)tsetAShowAlert
 {
-    UIAlertView *ale = [[UIAlertView alloc] initWithTitle:@"这是TestA" message:@"" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil];
-    [ale show];
+    [self performTarget:@"TestA" action:@"tsetAShowAlert" params:nil shouldCacheTarget:NO];
 }
 @end

@@ -9,5 +9,5 @@
 #import <CTMediator/CTMediator.h>
 
 @interface CTMediator (TestA)
-
+- (void)tsetAShowAlert;
 @end

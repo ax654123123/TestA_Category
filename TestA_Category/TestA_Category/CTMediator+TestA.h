@@ -9,5 +9,9 @@
 #import <CTMediator/CTMediator.h>
 
 @interface CTMediator (TestA)
+
 - (void)tsetAShowAlert;
+
+- (UIViewController *)viewControllerTestA;
+
 @end

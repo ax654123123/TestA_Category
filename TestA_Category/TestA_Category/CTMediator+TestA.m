@@ -13,4 +13,10 @@
 {
     [self performTarget:@"TestA" action:@"tsetAShowAlert" params:nil shouldCacheTarget:NO];
 }
+
+- (UIViewController *)viewControllerTestA
+{
+  return [self performTarget:@"TestA" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
+
 @end
